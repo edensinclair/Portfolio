@@ -1,0 +1,28 @@
+.footer{
+    background-color: #222;
+    padding-top: 36px; 
+    padding-bottom: 30px;
+    margin: -20px; /* Ensure the footer aligns with the body margin */
+}
+
+.social-links a span {
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+.social-links a span i {
+    font-size: 27px;
+    margin-right: 18px;
+    color: white;
+    height: 30px; /* Explicitly define height */
+    width: 30px; /* Explicitly define width */
+    vertical-align: middle; /* Align icons vertically to the middle */
+    transition: all 0.3s ease;
+    transform: translateY(-3px); /* Adjust vertical positioning */
+}
+
+.social-links a:hover span i {
+    font-size: 35px; /* Increase size on hover */
+}
+
+  
