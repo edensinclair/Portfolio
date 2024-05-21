@@ -114,12 +114,6 @@ strong{
     background-color: #ece5ff;
 }
 
-.custom-blockquote {
-    padding: 36px;
-    background-color: #ece5ff;
-    margin-top: 36px;
-   
-  }
 
 .primary:hover,
 .primary:focus {
@@ -395,7 +389,7 @@ blockquote {
     font-weight: 100;
     padding-left: 36px;
     padding-right: 36px;
-    font-size: 2rem;
+    font-size: 25px;
     line-height: 1.4;
     position: relative;
     margin: 0;
