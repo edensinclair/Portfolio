@@ -474,7 +474,7 @@ section {
 
 .container2 {
     display: flex;
-    
+    margin-bottom: -80px!important;
 }
 
 .jump-to-panel {
@@ -490,7 +490,7 @@ section {
     margin-right: 30px;
     border-radius: 10px;
     box-shadow: 0px 0 0px rgba(0, 0, 0, 0.2);
-    height: 220px; /* Ensures the panel takes the full height of the viewport */
+    height: 390px; /* Ensures the panel takes the full height of the viewport */
     
 }
 
@@ -538,4 +538,13 @@ section {
     main {
         padding: 20px; /* Adjust padding for smaller screens */
     }
+}
+
+.yay{
+    background-color: #F5F5F5;
+    border-radius: 5px;
+padding-left: 25px;
+padding-right: 25px;
+padding-top: 1px;
+padding-bottom: 1px;
 }
