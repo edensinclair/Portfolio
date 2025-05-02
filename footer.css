@@ -1,8 +1,8 @@
 .footer{
     background-color: #222;
-    padding-top: 36px; 
-    padding-bottom: 30px;
-    margin: -20px; /* Ensure the footer aligns with the body margin */
+    padding-top: 35px; 
+    padding-bottom: 35px;
+    margin-bottom: -20px; /* Ensure the footer aligns with the body margin */
 }
 
 .social-links a span {
