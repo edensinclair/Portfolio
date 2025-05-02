@@ -4,12 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
     <title>Portfolio | Eden Sinclair</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Krona+One&family=Oswald:wght@200..700&family=Space+Grotesk:wght@300..700&display=swap"
         rel="stylesheet">
+        <link rel="stylesheet" href="https://use.typekit.net/qes2rdh.css">
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="https://use.typekit.net/qes2rdh.css">
     <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
@@ -17,42 +20,74 @@
     <link rel="stylesheet" href="footer.css">
  <!-- Font Awesome for icons -->
  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+ <link rel="stylesheet" href="homepage.css">
  
 
 </head>
 
 <body>
+    <div class="homepage">
 
     <div class="topnavcontainer">
         <nav class="topnav">
             <div class="little logo">
                 <a href="index.html">
-                    <img src="public/images/Logo.png" style="width:35px" /></a>
+                    <img src="public\images\Logo1.png" style="height:30px" /></a>
             </div>
             <div class="logoetc">
-
-                <div class="nav-links">
-                
-                    <a href="about.html">About</a>
-                    <a href="index.html" class="active">Work</a>
-                    
+                <div class="nav-links home">
+                    <a href="about.html"> About</a>
+                    <a href="index.html" class="active"> Work</a>
                 </div>
+            </div>
         </nav>
     </div>
 
-    <div class="pagecontainer">
-       
-            <div class="welcome">
-                <h1 style="margin-bottom: 18px">Hello!</h1>
-                <div class="lead">
-                    I'm Eden - a designer on a mission to make the digital world a more accessible and
-                    inclusive place!
-                </div>
-    
-               
+ <div class="herocontainer">
 
+    <div class="row align-items-center">
+        <div class="col-md-8">
+            <img src="public/images/arrow.svg" style="width: 200px; float: right;">
+            <div class="eyebrow" style="margin-bottom: 9px!important;">EDEN SINCLAIR</div>
+            <h1 style="font-weight:700; color: white;">Senior UX Designer & <span class="underline">Creative Problem Solver</span></h1>
+          <div class="lead" style="color:white">I design fun, accessible digital experiences — I love bold ideas, good snacks, and making design feel awesome for everyone.</div>
+          <div class="row" style="padding-bottom: 72px">
+            <div class="tag">
+                UX design
+            </div><div class="tag">
+                Research & testing
             </div>
-            <div class="gallery">
+            <div class="tag">
+                Development
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+            <img class="headshot" style="width: 100%" src="public/images/Headshot.png" alt="Eden's headshot">
+        </div>
+
+
+       
+        
+        
+    </div>
+   
+    
+      
+
+    </div>
+</div>
+
+
+
+
+
+    <div class="pagecontainer"  style=" padding-top: 72px;">
+       
+          <h2 style="margin-top: 9px!important; margin-bottom:9px!important"> What I've been up to</h2>
+          <p>Right now, I'm working as a Senior UX designer and Research lead for the RSPCA. That means I'm spending most of my time creating wireframes, collaborating with cross-functional teams to design and implement experiments, A/B tests, iterating on designs, and creating awesome user experiences. But... that's not all I do!<strong> Check out my work below.</strong> </p>
+     
+            <div class="gallery" style=" padding-top: 36px;">
                 <div class="gallery-item">
                     <a href="RSPCARebrand.html" target="_top">
                         <div class="img__wrap">
@@ -84,14 +119,64 @@
                     </a>
                   </div>
 
+                  <div class="gallery-item">
+                    <a href="shrimplyInLove.html" target="_top">
+                      <div class="img__wrap">
+                        <img class="gallery-image" alt="A still from a 1-bit video game featuring two shrimp." src="public/images/ShrimpBanner.png" width="220" height="250" alt="Shrimply in Love game">
+                     
+                      </div>
           
+                    </a>
+                  </div>
 
                 
                 
                 <!-- Add more gallery items -->
             </div>
+            <h2 style="margin-bottom:27px!important"> What I do best</h2>
+
+
+
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="role">
+                        <div class="icontext"> <i class="fa-solid fa-wand-magic-sparkles" style="padding-right:9px; padding-top: 10px"></i><h3>UX & UI Design </h3></div>
+                        <p>Beautiful, accessible interfaces that feel good to use – and are built on solid research and testing.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="role">
+                        <div class="icontext"> <i class="fa-solid fa-microscope" style="padding-right:9px; padding-top: 10px"></i><h3>User Research & Testing</h3></div>
+                        <p>Real feedback, real users. I run interviews, usability tests, and iterate based on what I learn.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row" style="margin-top:27px!important">
+                <div class="col-md-6" >
+                    <div class="role">
+                        <div class="icontext"> <i class="fa-solid fa-laptop" style="padding-right:9px; padding-top: 10px"></i><h3>Frontend Development</h3></div>
+                        <p>Bridging the gap between design and code. I work in Webflow, HTML/CSS, and React to make sure what we dream up actually launches.</p>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="role">
+                        <div class="icontext"> <i class="fa-solid fa-hat-wizard" style="padding-right:9px; padding-top: 10px"></i><h3>Illustration & Visual Flair
+                        </h3></div>
+                        <p>From custom icons to playful animations – I bring designs to life with colour and personality.</p>
+
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+    </div>
+        </div>
+    </div>
+</body>
     <footer class="footer text-center">
         <div class="container">
           <div class="row">
@@ -107,9 +192,25 @@
         </div>
       </footer>
       </footer>
+    
+
+    </html>
   <!-- Bootstrap and jQuery JS -->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core
-</body>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core"></script>
+  <script type="module">
+    import roughNotation from 'https://cdn.jsdelivr.net/npm/rough-notation@0.4.2/rough-notation.min.js';
 
-</html>
+    window.onload = function() {
+        const underlineText = document.querySelector('.underline');
+        if (underlineText) {
+            const underlineAnnotation = roughNotation.annotate(underlineText, {
+                type: 'underline',
+                color: '#ff4d6d',
+                strokeWidth: 4,
+                animationDuration: 2000
+            });
+            underlineAnnotation.show();
+        }
+    }
+</script>

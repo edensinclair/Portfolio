@@ -1,5 +1,5 @@
 .footer{
-    background-color: #222;
+    background-color: #251E34;
     padding-top: 35px; 
     padding-bottom: 35px;
     margin-bottom: -20px; /* Ensure the footer aligns with the body margin */
@@ -22,7 +22,7 @@
 }
 
 .social-links a:hover span i {
-    font-size: 35px; /* Increase size on hover */
+    color: #DD97AC; /* Increase size on hover */
 }
 
   

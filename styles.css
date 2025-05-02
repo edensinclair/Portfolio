@@ -1,31 +1,143 @@
 /* Font Imports */
 
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://use.typekit.net/qes2rdh.css");
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
 
 /* General Body Styles */
 body {
     margin: 0;
-    font-family: "Noto Sans", sans-serif; /* Default font */
+    font-family: "Noto Sans", sans-serif; /* Defa40t font */
     color: #222;
 
 }
 
 
-
-p, li, h1, h2, h3, h4 {
+h1, h2, h3, h4 {
     max-width: 750px;
-    line-height: 155%;
+    line-height: 120%;
+    margin-bottom: 4.5px!important;
 }
 
 p, li {
     font-size: 18px!important;
     font-weight: 400;
+    max-width: 750px;
+    line-height: 155%;
 }
 
 
 li {
     margin-bottom: 9px;
 }
+
+/* Typography and Headings */
+h1, h2, h3 {
+ font-family: "franklin-gothic-compressed", sans-serif;
+ line-height: ;
+  font-optical-sizing: auto;
+ 
+  font-weight: 600!important;
+  font-style: normal;
+}
+
+h4{
+    font-family: "Noto Sans", sans-serif;
+    font-weight: 700!important;
+}
+
+
+h1 {
+    font-family: "franklin-gothic-compressed", sans-serif;
+    font-size: 65px!important; /* Reduced size for h1 */
+}
+
+h2 {
+    font-size: 42px!important; /* Reduced size for h2 */
+    margin-top: 63px!important;
+    margin-bottom: 18px!important;
+}
+
+h3 {
+    font-size: 30px!important; /* Reduced size for h3 */
+    margin-top: 45px!important;
+    margin-bottom: 18px!important;
+}
+
+h4 {
+    font-size: 18px!important;
+    margin-top: 36px!important;
+    margin-bottom: 9px!important;
+}
+
+/* Links and Hover States */
+a, .nav-links a {
+    
+    color: #222 !important;
+    
+    
+}
+
+.nav-links a:hover {
+
+    text-decoration: none;
+}
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    padding: 10px 15px;
+    border-radius: 5px;
+    position: relative;
+    text-decoration: none;
+    color: #222;
+    font-family: "Noto Sans", sans-serif;
+     font-optical-sizing: auto;
+}
+
+.nav-links a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    text-decoration: none;
+    width: 0;
+    height: 1px;
+    background-color: #DD97AC;;
+    border-radius: 1px;
+    transition: width 0.3s ease;
+}
+
+.nav-links a:hover::after,
+.nav-links a.active::after {
+    width: 100%;
+    text-decoration: none;
+}
+
+.nav-links a.active {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+
+.nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.home a {
+    color: white!important;
+}
+
+.home a::after {
+   
+    background-color: #DD97AC;
+}
+
 
 /* Card and Section Styling */
 .colouredsection, .highlightsection, .cardstyle {
@@ -111,89 +223,7 @@ video{
     background-color: #ece5ff;
 }
 
-/* Typography and Headings */
-h1, h2, h3, h4 {
-    font-family: "Noto Sans", sans-serif;
-  font-optical-sizing: auto;
- 
-  font-weight: 600!important;
-  font-style: normal;
-}
 
-
-h1 {
-    font-size: 48px!important; /* Reduced size for h1 */
-}
-
-h2 {
-    font-size: 29px!important; /* Reduced size for h2 */
-    margin-top: 63px!important;
-    margin-bottom: 18px!important;
-}
-
-h3 {
-    font-size: 22.5px!important; /* Reduced size for h3 */
-    margin-top: 45px!important;
-    margin-bottom: 18px!important;
-}
-
-h4 {
-    font-size: 18px!important;
-    margin-top: 36px!important;
-    margin-bottom: 9px!important;
-}
-
-/* Links and Hover States */
-a, .nav-links a {
-    
-    color: #222 !important;
-    
-    
-}
-
-.nav-links a:hover {
-
-    text-decoration: none;
-}
-
-.nav-links {
-    display: flex;
-    gap: 20px;
-}
-
-.nav-links a {
-    padding: 10px 15px;
-    border-radius: 5px;
-    position: relative;
-    text-decoration: none;
-    color: #222;
-    font-family: "Noto Sans", sans-serif;
-     font-optical-sizing: auto;
-}
-
-.nav-links a::after {
-    content: '';
-    position: absolute;
-    left: 0;
-    bottom: -2px;
-    text-decoration: none;
-    width: 0;
-    height: 1px;
-    background-color: #222;
-    border-radius: 1px;
-    transition: width 0.3s ease;
-}
-
-.nav-links a:hover::after,
-.nav-links a.active::after {
-    width: 100%;
-    text-decoration: none;
-}
-
-.nav-links a.active {
-    font-weight: bold;
-    text-decoration: none;
-}
 
 /* Blockquotes */
 blockquote {
@@ -332,6 +362,10 @@ cite {
    
 }
 
+.step{
+    margin-top: -9px!important;
+}
+
 .casestudy{
     margin-bottom:20px;
     margin-top: 20px;
@@ -341,6 +375,15 @@ cite {
                       border-radius: 8px;
 }
 
+.tag{
+    padding: 5px 20px;
+    border: 1.5px solid #DD97AC; 
+    color:white;
+    text-align: center;
+    border-radius: 300px;
+    margin-left: 15px;
+
+}
 .headercontainer{
     width: 100%;
     max-width: 1317px;
@@ -349,6 +392,18 @@ cite {
     padding-right: 35px;
     padding-top: 54px;
     padding-bottom: 54px;
+}
+.herocontainer{
+    width: 100%;
+    max-width: 1317px;
+    margin: 0 auto;
+    padding-left: 35px;
+    padding-right: 35px;
+    padding-top: 54px;
+    padding-bottom: 0;
+}
+.homepage{
+    background-color: #251E34;
 }
 
 .containercontent {
@@ -401,14 +456,15 @@ body .highlightsection {
 }
 
 .eyebrow {
-    font-family: 'Krona One', sans-serif;
-    font-weight: 700;
-    font-size: 20px;
+    font-family: "franklin-gothic-compressed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px!important;
     line-height: 115%;
     letter-spacing: 0.405px;
     text-transform: none;
     margin-bottom: 18px;
-    color: #5f43b2;
+    color: #DD97AC;
 }
 
 strong {
@@ -418,3 +474,48 @@ strong {
 .boxIcon {
     font-size: 27px;
 }
+
+.list-unstyled li {
+    list-style: none;
+    padding-left: 0;
+    position: static;
+}
+
+.list-unstyled li::before {
+    content: none;
+}
+
+
+
+li {
+    list-style: none;
+    position: relative;
+    padding-left: 30px; /* Space for the icon */
+}
+
+li:before {
+    font-family: 'Font Awesome 6 Free' !important; /* Correct Font Awesome font for version 6 */
+    font-weight: 900; /* Solid icons */
+    content: "\f14a"; /* Icon Unicode */
+    position: absolute;
+    left: 0;
+    top: 1px; /* Align to top instead of centering */
+    /* Remove transform */
+}
+
+ul{
+    padding-left:4px;
+}
+
+.icontext{
+   display: flex; 
+
+ vertical-align: middle;
+   padding-top: 0;
+ 
+}
+
+.icontext h3{
+ 
+    margin-top: 0!important;
+ }
