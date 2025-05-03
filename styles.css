@@ -154,9 +154,7 @@ a, .nav-links a {
     background-color: #F5F5F5;
 }
 
-video{
-    padding-top: 20px;
-}
+
 .gallery {
     display: flex;
     flex-wrap: wrap;
@@ -185,7 +183,11 @@ video{
 .gallery-item:hover {
     transform: scale(1.05);
 }
-
+video{
+    border-radius: 8px!important;
+    padding-top:0;
+    margin-top:18px;
+}
 /* .img__wrap {
     position: relative;
     display: block;
