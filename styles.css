@@ -265,7 +265,7 @@ cite {
 
 .headshot{
     bottom: 0;
-    position:relative; 
+    position:relative;
 }
 
 /* Responsive Design */
@@ -303,7 +303,10 @@ cite {
     .nav-links a {
         padding: 8px 12px; /* Adjust padding for navigation items on mobile */
     }
+    
+    
 }
+
 
 @media only screen and (max-width: 600px) {
     .gallery-item {
@@ -483,6 +486,14 @@ body .highlightsection {
     aspect-ratio: 1/1;
     float: left;
 }
+.projectStyle2{
+    border: 2px solid #DD97AC;
+    padding: 27px;
+    border-radius: 8px;
+    margin-bottom: 27px;
+   
+}
+
 
 .noSpace{
     margin-top: 0px!important;
@@ -492,12 +503,13 @@ body .highlightsection {
     font-family: "franklin-gothic-compressed", sans-serif;
     font-weight: 600;
     font-style: normal;
+    text-transform:uppercase!important;
     font-size: 25px!important;
     line-height: 115%;
     letter-spacing: 0.405px;
     text-transform: none;
     margin-bottom: 18px;
-    color: #DD97AC;
+    color: #ca7a92;
 }
 
 strong {
@@ -551,8 +563,8 @@ ul{
 
 .icontext{
    display: flex; 
-
- vertical-align: middle;
+   color: #ca7a92;
+   vertical-align: middle;
    padding-top: 0;
  
 }
