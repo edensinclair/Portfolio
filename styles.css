@@ -179,11 +179,37 @@ video{
     aspect-ratio: 1/1;
     object-fit: cover;
     border-radius: 8px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 .gallery-item:hover {
     transform: scale(1.05);
 }
+
+/* .img__wrap {
+    position: relative;
+    display: block;
+}
+
+.img__description {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    padding: 10px;
+    opacity: 0;
+    transition: visibility 0s 0.3s, opacity 0.3s ease;
+}
+
+.img__wrap:hover .img__description {
+    opacity: 1;
+    transition: opacity 0.3s ease, visibility 0s 0s; /* Ensure opacity transition takes place */
+} */
+
 
 /* Button Styling */
 .primary, .secondary {
