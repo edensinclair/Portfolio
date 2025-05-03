@@ -8,7 +8,7 @@
 body {
     margin: 0;
     font-family: "Noto Sans", sans-serif; /* Defa40t font */
-    color: #222;
+    color: #251E34;
 
 }
 
@@ -73,7 +73,7 @@ h4 {
 /* Links and Hover States */
 a, .nav-links a {
     
-    color: #222 !important;
+    color: #251E34 !important;
     
     
 }
@@ -93,7 +93,7 @@ a, .nav-links a {
     border-radius: 5px;
     position: relative;
     text-decoration: none;
-    color: #222;
+    color: #251E34;
     font-family: "Noto Sans", sans-serif;
      font-optical-sizing: auto;
 }
@@ -202,14 +202,14 @@ video{
 }
 
 .primary {
-    background: #222;
+    background: #251E34;
     color: #ffffff;
-    border: 2px #222 solid;
+    border: 2px #251E34 solid;
 }
 
 .secondary {
-    color: #222;
-    border: 2px #222 solid;
+    color: #251E34;
+    border: 2px #251E34 solid;
     background-color: white;
 }
 
@@ -235,7 +235,7 @@ blockquote {
     position: relative;
     margin: 0;
     font-family: "Noto Sans", sans-serif;
-    color: #222;
+    color: #251E34;
 }
 
 blockquote:before, blockquote:after {
@@ -263,18 +263,34 @@ cite {
     line-height: 1.5;
 }
 
+.headshot{
+    bottom: 0;
+    position:relative; 
+}
+
 /* Responsive Design */
+
+@media only screen and (max-width:1146px) {
+.hiddenElement{
+    display: none;
+}
+
+.tag{
+    padding-bottom: 18px;
+}
+}
+
 @media only screen and (max-width: 800px) {
     .gallery-item {
         width: 100%;
     }
 
     h1 {
-        font-size: 36px!important; /* Reduced size for h1 on mobile */
+        font-size: 54px!important; /* Reduced size for h1 on mobile */
     }
 
     h2 {
-        font-size: 30px!important; /* Reduced size for h2 on mobile */
+        font-size: 40px!important; /* Reduced size for h2 on mobile */
     }
 
     
@@ -382,6 +398,7 @@ cite {
     text-align: center;
     border-radius: 300px;
     margin-left: 15px;
+    margin-bottom: 18px;
 
 }
 .headercontainer{
@@ -444,6 +461,10 @@ body .highlightsection {
     height: 100%;
 }
 
+.keyInsights{
+    gap: 18px;
+}
+
 .banner, .bannerInline {
     width: 100%;
     max-height: 399px;
@@ -453,6 +474,18 @@ body .highlightsection {
 .bannerInline {
     margin-bottom: 27px;
     margin-top: 9px;
+}
+
+.projectStyle{
+    background-color: #E6D0D4;
+    padding: 27px;
+    border-radius: 8px;
+    aspect-ratio: 1/1;
+    float: left;
+}
+
+.noSpace{
+    margin-top: 0px!important;
 }
 
 .eyebrow {
@@ -485,7 +518,16 @@ strong {
     content: none;
 }
 
-
+.regularBullet li{
+    list-style:disc;
+    padding-left: 2px;
+    position: static;
+    list-style-position: outside;
+    margin-left: 18px;
+}
+.regularBullet li::before {
+    content: none;
+}
 
 li {
     list-style: none;
