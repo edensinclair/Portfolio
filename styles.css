@@ -54,8 +54,8 @@ h1 {
 
 h2 {
     font-size: 42px!important; /* Reduced size for h2 */
-    margin-top: 63px!important;
-    margin-bottom: 18px!important;
+    padding-top: 54px;
+    margin-bottom: 9px!important;
 }
 
 h3 {
@@ -297,6 +297,11 @@ cite {
 }
 
 /* Responsive Design */
+@media only screen and (max-width: 5000px) {
+    .lead{
+        font-size: 25px!important;
+    }
+}
 
 @media only screen and (max-width:1146px) {
 .hiddenElement{
@@ -314,13 +319,39 @@ cite {
     }
 
     h1 {
-        font-size: 54px!important; /* Reduced size for h1 on mobile */
+        font-size: 45px!important; /* Reduced size for h1 on mobile */
     }
 
     h2 {
-        font-size: 40px!important; /* Reduced size for h2 on mobile */
+        font-size: 36px!important; /* Reduced size for h2 on mobile */
+        padding-top: 36px!important;
+    }
+h3{
+    margin-top: 27px!important;
+}
+    .lead{
+        font-size: 22px!important;
     }
 
+    .headercontainer{
+       padding-left: 20px!important;
+       padding-right: 20px!important;
+    }
+    .topnav{
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+    }
+    .pagecontainer{
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+        padding-top: 36px!important;
+        padding-bottom: 36px!important;
+    }
+
+    .herocontainer{
+        padding-left: 20px!important;
+        padding-right: 20px!important;
+    }
     
 
     .nav-links {
@@ -354,7 +385,7 @@ cite {
 }
 
 .lead {
-    font-size: 25px!important;
+   
     font-family: "Noto Sans", sans-serif;
     line-height: 150%;
     margin-bottom: 36px;
@@ -402,7 +433,7 @@ cite {
     width: 100%;
     max-width: 1317px;
     margin: 0 auto;
-    padding-top: 20px;
+    padding-top: 72px;
     padding-right: 35px;
     padding-left: 35px;
     padding-bottom: 72px;
@@ -525,6 +556,7 @@ body .highlightsection {
 
 .noSpace{
     margin-top: 0px!important;
+    padding-top: 0px!important;
 }
 
 .eyebrow {
@@ -540,9 +572,7 @@ body .highlightsection {
     color: #ca7a92;
 }
 
-strong {
-    font-weight: 500!important;
-}
+
 
 .boxIcon {
     font-size: 27px;
@@ -578,7 +608,7 @@ li {
 li:before {
     font-family: 'Font Awesome 6 Free' !important; /* Correct Font Awesome font for version 6 */
     font-weight: 900; /* Solid icons */
-    content: "\f14a"; /* Icon Unicode */
+    content: "\f061"; /* Icon Unicode */
     position: absolute;
     left: 0;
     top: 1px; /* Align to top instead of centering */
